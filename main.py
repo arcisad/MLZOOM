@@ -11,6 +11,6 @@ if __name__ == '__main__':
         exit()
 
     grid_search = False  # Takes longer if true
-    image_path = 'ax2.jpg'
+    image_path = 'pic.jpg'
     num_zooms = 5
     funcs.zoomx(num_zooms, image_path, alg, num, grid_search)
